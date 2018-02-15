@@ -1,5 +1,6 @@
-# given a triplet of scores, compare which participant a or b scores the highest
+# Given a triplet of scores, compare which participant a or b scores the highest
 # for each category 0-2, the winner is awarded one point, equal score awards no points
+# Input: 6 integers
 
 def compareTriplets(a0, a1, a2, b0, b1, b2)
     result = [0,0]

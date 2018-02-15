@@ -1,5 +1,4 @@
-#!/bin/python3
-# Return the minimal and maximal sum that can be calculated by summing N-1 digits
+# Efficiently returns the minimal and maximal sum that can be calculated by summing N-1 digits
 #Import format: array
 
 import sys

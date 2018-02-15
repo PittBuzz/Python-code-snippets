@@ -2,6 +2,7 @@
 # Given a time in -hour AM/PM format, convert it to military (-hour) time.
 #Input format: hh:mm:ssAM
 #Output format: hh:mm:ss
+
 import sys
 
 def timeConversion(s):
