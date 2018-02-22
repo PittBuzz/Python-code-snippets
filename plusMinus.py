@@ -1,5 +1,6 @@
-#return the fraction of an array that is negative, positivo, and zero
+# return the fraction of an array that is negative, positivo, and zero
 #input: array
+
 
 def plusMinus(arr):
     plus = 0
@@ -13,5 +14,5 @@ def plusMinus(arr):
             minus += 1
         else:
             zero += 1
-            
-    return(plus/n, minus/n, zero/n)
+
+    return(plus / n, minus / n, zero / n)
