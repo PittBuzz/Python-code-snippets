@@ -1,8 +1,17 @@
-# This function itteratively returns how to pay a given amount >= 24 with coins of 5 and 7
-# Input: integer >= 24
-
-
 def changeFiveSeven(amount):
+	"""
+
+	This function itteratively returns how to pay a given amount >= 24 with coins of 5 and 7
+
+	Input:
+		amount -- integer >= 24
+
+	Output:
+		list with coins of 5 and 7
+
+	"""
+
+
     if amount == 24:
         return [7, 7, 5, 5]
     if amount == 25:

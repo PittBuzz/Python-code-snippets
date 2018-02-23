@@ -1,8 +1,16 @@
-# This function checks the parity of a vector
-# Input: vector
-
-
 def getParity(p):
+	"""
+
+	This function checks the parity of a vector
+
+	Input:
+		p -- vector
+
+	Output:
+		Boolean, return True if parity is 1
+
+	"""
+
     parity = 1
     for i in range(0, len(p) - 1):
         if p[i] != i:
